@@ -1,0 +1,94 @@
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.mx-32 {
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+.hover-zoom {
+    transition: all .2s ease-in-out;
+}
+
+.hover-zoom:hover {
+    transform: scale(2.1);
+}
+
+.hover-color {
+    transition: all .2s ease-in-out;
+}
+
+.hover-color:hover {
+    background-color: magenta;
+}
+
+.hover-color-blue {
+    transition: all .2s ease-in-out;
+}
+
+.hover-color-blue:hover {
+    background-color: blue;
+}
+
+.button {
+    font-size: 32px;
+    border: 10px brown solid;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+div.a {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: fixed;
+
+}
+
+div.b {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: fixed;
+
+}
+
+div.c {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: fixed;
+
+}
+
+div.d {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    position: fixed;
+
+}
+
+div.moving {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    position: fixed;
+}
